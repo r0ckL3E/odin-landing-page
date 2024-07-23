@@ -1,0 +1,202 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+  
+    /* Added */
+    display: flex;
+    flex-direction: column;
+  }
+
+
+/* Added */
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Added */
+  a {
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+
+
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+}
+
+.left-links img {
+    width: 100px;
+    height: auto;
+    margin-left: 166px;
+}
+
+.right-links {
+    margin-right: 166px;
+}
+.right-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.belowHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+            /* top - right - bottom - left */
+    margin: 100px 24px 100px 24px;
+}
+
+.belowHeaderRight {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 166px;
+}
+
+.famPicture img {
+    margin-right: 166px;
+}
+.belowHeaderTitle {
+    font-size: 48px;
+    font: bolder;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.famPicture img {
+    width: 350px;
+    height: auto;
+}
+
+.Subscribe {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    border-radius: 8px;
+    max-width: 150px;
+    padding: 8px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+
+.header2Title {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.description {
+    font-size: 18px;
+    color: #1F2937;
+    width: 100px;
+}
+
+.famsquad {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.famsquad img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+        /* top - right - bottom - left */
+    padding: 100px 300px 92px 300px;
+}
+
+.quote {
+    font: light;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quoteAuthor {
+    text-align: end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.section4 {
+    background-color: white;
+}
+
+.blueBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    margin: 100px 200px 100px 200px;
+    background-color: #3882f6;
+}
+.blueTitle {
+    font-size: 36px;
+    font: bolder;
+    color: #F9FAF8;
+}
+
+.blueSubscribe {
+    background: #3882f6;
+    border: 1px solid #F9FAF8;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 32px 8px 32px;
+}
+
+.textSection4 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 42px 0px 42px 0px;
+    
+}
+
+html, body {
+    overflow: auto; /* or overflow-y: auto; */
+}
